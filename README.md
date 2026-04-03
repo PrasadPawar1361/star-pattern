@@ -28,4 +28,9 @@ pattern3-
 ++
 +
 
-pattern4-
+<h1> pattern4- <h1>
+    * 
+   ** 
+  *** 
+ **** 
+***** 
