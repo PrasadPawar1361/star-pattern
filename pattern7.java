@@ -2,22 +2,23 @@ public class pattern7 {
     
     public static void main (String  args[]){
 
-        for(int i=1; i<=5; i++){
+      
+        int n = 6;
 
-            for(int j=5; j>i; j--){
-                System.out.print("*");
-                
-               
+        for(int i = n; i >= 1; i--) {
+
+            // print spaces
+            for(int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
             }
-            
-            System.out.println(" ");
-                   
-            
 
+            // print stars
+            for(int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
 
+            System.out.println();
         }
-
-
-
     }
 }
+            
