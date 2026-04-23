@@ -7,7 +7,7 @@ public class pattern9 {
 
             for(int j = 1; j <= n; j++){
 
-                if(i == (n/2)+1 || j == (n/2)+1){ // to find the mid line this is trick fro patterns.
+                if(i == (n/2)+1 || j == (n/2)+1){ // to find the mid line this is trick for patterns.
                 System.out.print("@ ");
                 }
                 else{
