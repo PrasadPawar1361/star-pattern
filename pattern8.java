@@ -1,0 +1,21 @@
+public class pattern8{
+    public static void main(String[] args){
+
+        int n = 5;
+        for(int i = 1; i<=n; i++){
+
+            for(int j = 1; j<=n; j++){
+
+                if(i == 1 || i == n || j == 1 || j == n){ //same logic everywhere 
+                    System.out.print("+ ");
+                }
+                else{
+                    System.out.print("  "); // this is 2 spaces
+                }
+                
+            }
+            System.out.println("  ");
+        }
+
+    }
+}
