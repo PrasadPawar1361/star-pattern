@@ -1,7 +1,7 @@
 # star-pattern
-practice for logic building make star pattern target is 50+ star pattern
+<h1> practice for logic building make star pattern target is 50+ star pattern </h1>
 
-
+<h3>
 pattern1-
 *
 **
@@ -82,3 +82,4 @@ pattern10-
 +  +  *  +  +   
 +  +  +  *  +   
 +  +  +  +  *   
+</h3>
